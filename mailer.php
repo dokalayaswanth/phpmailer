@@ -2,9 +2,9 @@
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
  
-require '/home/cpanelusername/PHPMailerTest/PHPMailer/src/Exception.php';
-require '/home/cpanelusername/PHPMailerTest/PHPMailer/src/PHPMailer.php';
-require '/home/cpanelusername/PHPMailerTest/PHPMailer/src/SMTP.php';
+require 'PHPMailer-master/src/Exception.php';
+require 'PHPMailer-master/src/PHPMailer.php';
+require 'PHPMailer-master/src/SMTP.php';
  
 // Instantiation and passing [ICODE]true[/ICODE] enables exceptions
 $mail = new PHPMailer(true);
